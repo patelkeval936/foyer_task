@@ -64,7 +64,7 @@ class _ProfileInfoScreenState extends State<ProfileInfoScreen> {
                     TextFormField(
                       controller: longitudeController,
                       validator: AppValidators.longitudeValidator,
-                      keyboardType: const TextInputType.numberWithOptions(decimal: true, signed: false),
+                      keyboardType: const TextInputType.numberWithOptions(decimal: true, signed: true),
                       decoration: InputDecoration(hintText: AppStrings.longitudeHintText),
                     ),
                     const Padding(
